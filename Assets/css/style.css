@@ -1,0 +1,534 @@
+@font-face {
+    font-family: neon;
+    src: url(../font/NEON____.TTF);
+}
+
+.wrap{
+  word-wrap: break-word;
+}
+
+.c-f{
+    height: 80px;
+    border-bottom:1px solid rgba(255,255,255,10%);
+    position: sticky;
+    background-color: transparent;
+    ;
+    top:0;
+    z-index: 10;
+    transition: background-color 600ms linear;
+    scroll-behavior:smooth;
+}
+
+.con{
+    height: 100%;
+}
+
+.navicon-btn{
+  background-color:transparent;
+  margin-left: auto;
+  border: none;
+}
+
+.navicon{
+ font-size: 34px;
+ color:#ccc;
+ transition: 0.5s;
+}
+
+.navicon:hover{
+  color: #f1f1f1;
+  text-shadow: 0 0 20px white;
+}
+.sidebar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color:rgba(9,9,9,0.9); */
+    background-color: #111;
+    overflow: hidden;
+    transition: 1s;
+  }
+  
+  .sidebar-content {
+    position: relative;
+    top: 12%;
+    width: 100%;
+    left: 25px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Nunito Sans';
+  }
+  
+  .sidebar a {
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 35px;
+    color: #818181;
+    display: block;
+    transition: transform 0.5s !important;
+  }
+  
+  .sidebar a:hover, .sidebar a:focus {
+    color: #f1f1f1;
+    text-shadow: 0 0 20px white;
+    transform: scale(1.1);
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    font-size: 38px;
+    transition: 0.5s !important;
+  }
+  
+  /* @media screen and (max-height: 450px) {
+    .sidebar a {font-size: 20px}
+    .sidebar .closebtn {
+    font-size: 40px;
+    top: 15px;
+    left: 35px;
+    }
+  } */
+  
+  .c-f2{
+    height:auto;
+    background-color: #818181;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center center; 
+    margin-top: -80px;
+    padding: 340px 0px;
+  }
+
+  .con2{
+    height: auto;
+  }
+
+  .hdg{
+    margin: auto;
+    width:85%;
+    position: relative;
+  }
+  
+  .stxt1{
+    font-family: neon;
+    font-size: 120px;
+    color: white;
+    letter-spacing: 35px;
+  }
+
+  .alpha{
+    font-size: 24px;
+    color: #ccc;
+    box-sizing: none;
+    margin-top: -25px;
+    line-height: 1.3;
+  }
+
+  span{
+    animation: txt 0.8s both;
+    font-family: Nunito Sans;
+    letter-spacing: -7px;
+  }
+
+  @keyframes txt{
+    0%{
+      opacity: 0;
+    }
+
+    65%{
+      opacity: 1;
+      text-shadow: 0 0 25px white;
+    }
+
+    75%{
+      opacity: 1;
+    }
+
+    100%{
+      opacity: 0.7;
+  }
+}
+
+.c-f3{
+  height: auto;
+  background-color: #111111;
+  padding: 100px 0px;
+}
+
+.pic2{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  margin: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.pic2 img{
+  transition: transform 0.5s;
+}
+
+.pic2 img:hover{
+  transform: scale(1.2) rotate(-5deg);
+  opacity: 70%;
+}
+
+.as{
+  height: auto;
+  width: 85%;
+  background-color:transparent;
+  margin:100px auto;
+}
+
+.as2{
+  height: auto;
+  width: 95%;
+  background-color:transparent;
+  margin:100px auto;
+}
+
+.hdg2{
+  font-size: 36px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.ap{
+  font-size: 18px;
+  color: #ccc;
+  font-family: Nunito;
+}
+
+.abtn{
+  background-color: #111;
+  width: 40%;
+  color: #ccc;
+  font-family: Nunito;
+  height: auto;
+  line-height: 3;
+  border:2px solid #ccc;
+  margin-top: 25px;
+  margin-right: 10px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.abtn:hover{
+  color: #fff;
+  border-color: #fff;
+  box-shadow: 0px 0px 5px white;
+}
+
+.c-f4{
+  height: auto;
+  padding-top: 100px; 
+  padding-bottom: 100px;
+  background: #000;
+}
+
+.alpha1{
+	width:30%;
+	height:1px;
+	margin:auto;
+	border:none;
+	background-color: #ccc;
+	}
+	
+.beta{
+	width:10%;
+	height:1px;
+	margin:auto;
+	margin-top:2px;
+	border:none;
+	background-color:#ccc;}
+	
+.gamma{
+	width:8%;
+	height:1px;
+	margin:auto;
+	margin-top:2px;
+	border:none;
+	background-color:#ccc;}
+
+.box1{
+  height: auto;
+  width: 98%;
+  margin: auto;
+  border-radius: 8px;
+  z-index: 5 !important;
+  border: 2px #ccc solid;
+  background-color: #111111;
+  transition: 0.5s;
+}
+
+.esc{
+  margin-top: 30px;
+}
+
+.num{
+  border-bottom: 30px solid rgb(37, 37, 37);
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: 30px !important;
+	width: 30%;
+  margin-left: 10px;
+  color: #fff;
+  line-height: 2;
+  box-shadow: none !important;
+  transition: 0.5s;
+}
+
+  .num:hover {
+  border-bottom-color: white;
+  box-shadow: 0px 0px 5px white;
+  color: #111;
+}
+
+.box1:hover{
+  border-color: #fff;
+}
+
+h5{
+  font-family: Nunito;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.paracho{
+  color: #ccc;
+  font-size: 18px;
+  font-family: Nunito;
+  transition: 0.4s;
+}
+
+.paracho:hover{
+  text-shadow: 0px 0px 1px white;
+}
+
+.c-f5{
+    height: auto;
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    background: #111;
+}
+
+.charimg{
+  height: auto;
+  width: 96%;
+  margin: auto;
+  border-radius: 15px;
+  background-color: #111;
+  border: 2px solid #ccc;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.charimg:hover{
+  box-shadow: 0px 0px 5px white;
+}
+
+.nft{
+  height: 88%;
+  width: 100%;
+  background-color: #000;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.nft img{
+  transition: transform 0.5s;
+}
+
+.nft img:hover{
+  transform: scale(1.2) rotate(-5deg);
+  opacity: 50%;
+}
+
+.paranft{
+  color: #ccc;
+  font-family:'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 24px 0px;
+}
+
+.linkcoll{
+  width: 98%;
+  margin: auto;
+  margin-top: 30px;
+  height: auto;
+  background-color: #111;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  padding: 4px 0px;
+  transition: 0.5s;
+}
+
+.linkcoll:hover{
+  box-shadow: 0px 0px 5px white;
+}
+
+.paracoll{
+  color: #ccc;
+  margin-top: 20px;
+  font-family:'Heebo', sans-serif;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.c-f6{
+  height: auto; 
+  padding: 100px 0px;
+  background-color: #000;
+}
+
+.c-f7{
+  height: auto;
+  background-color: #111;
+  padding: 100px 0px;
+}
+
+.inven{
+  height: 100%;
+   width: 100%; 
+   margin: auto; 
+   background-color: #000;
+   border-radius: 10px;
+  padding: 56px 0px;
+}
+
+.no{
+  padding: 0px 0px !important;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1.2s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.inven img{
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+.inven img:hover{
+  opacity: 100%;
+}
+
+.inven2 img{
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+.inven2 img:hover{
+  opacity: 100%;
+}
+
+.blog{
+  width: 99%;
+  height: 100%;
+  margin: auto;
+  background-color: transparent;
+}
+
+.date{
+  border-bottom: 30px solid rgb(37, 37, 37);
+	border-right: 20px solid transparent;
+	height: 30px !important;
+	width: 40%;
+  color: #fff;
+  line-height: 2;
+  font-family: Nunito;
+}
+
+h4{
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+  font-size: 23px;
+  color: white;
+}
+
+.parablog{
+  font-family: Nunito;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.c-f8{
+  height: auto;
+  padding: 100px 0px;
+  background-color: #000;
+}
+
+.c-f9{
+  height: auto;
+  padding-top: 100px;
+  background-color: #111;
+  padding-bottom: 170px;
+}
+
+.parafoo{
+  color: #ccc;
+  font-family: Nunito;
+  font-size: 18px;
+}
+
+.inp{
+  width: 35%;
+  height: 45px;
+  display: inline;
+}
+
+.btn8{
+  height: auto;
+  padding: 10px 0px;
+  background-color: #000;
+  text-transform: uppercase;
+  color: white !important;
+  width: 150px;
+  color: #ccc;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.btn8:hover{
+  box-shadow: 0 0 5px white;
+}
+
+i{
+  font-size: 18px;
+  color: gray;
+  padding: 13px;
+  transition: 0.5s;
+}
+
+i:hover{
+  color: #fff;
+}
+
+.c-f10{
+  height: auto;
+  border-top: 1px solid #ccc;
+  color: #ccc;
+  padding: 30px 0px;
+  font-family: Nunito;
+  background-color: #111;
+}

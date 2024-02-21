@@ -1,0 +1,255 @@
+.wrap{
+    word-wrap: break-word;
+  }
+  
+  .c-f{
+      height: 80px;
+      border-bottom:1px solid rgba(255,255,255,10%);
+      position: sticky;
+      background-color: transparent;
+      top:0;
+      z-index: 10;
+      transition: background-color 600ms linear;
+      scroll-behavior:smooth;
+  }
+  
+  .con{
+      height: 100%;
+  }
+  
+  .navicon-btn{
+    background-color:transparent;
+    margin-left: auto;
+    border: none;
+  }
+  
+  .navicon{
+   font-size: 34px;
+   color:#ccc;
+   transition: 0.5s;
+  }
+  
+  .navicon:hover{
+    color: #f1f1f1;
+    text-shadow: 0 0 20px white;
+  }
+  .sidebar{
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      /* background-color:rgba(9,9,9,0.9); */
+      background-color: #111;
+      overflow: hidden;
+      transition: 1s;
+    }
+    
+    .sidebar-content {
+      position: relative;
+      top: 12%;
+      width: 100%;
+      left: 25px;
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    .sidebar a {
+      padding: 8px;
+      text-decoration: none;
+      text-align: center;
+      font-size: 35px;
+      color: #818181;
+      display: block;
+      transition: transform 0.5s !important;
+    }
+    
+    .sidebar a:hover, .sidebar a:focus {
+      color: #f1f1f1;
+      text-shadow: 0 0 20px white;
+      transform: scale(1.1);
+    }
+    
+    .sidebar .closebtn {
+      position: absolute;
+      top: 15px;
+      right: 40px;
+      font-size: 38px;
+      transition: 0.5s !important;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidebar a {font-size: 20px}
+      .sidebar .closebtn {
+      font-size: 40px;
+      top: 15px;
+      left: 35px;
+      }
+    }
+    
+    .c-f2{
+      height:auto;
+      background-color: #818181;
+      background-image: url(../img/bg.jpg);
+      background-size: cover;
+      background-position: center center; 
+      margin-top: -80px;
+      padding: 270px 0px;
+    }
+
+.c-f3{
+    height: auto;
+    padding: 100px 0px;
+    background-color: #000;
+}
+
+.hdg{
+    color: #ccc;
+    font-size: 70px;
+    font-family: Nunito;
+}
+
+lable{
+    color: #ccc;
+    font-family: Nunito;
+}
+
+.inp2{
+    width: 100%;
+    height: 50px;
+    display: block;
+    background-color: rgb(37, 37, 37);
+    border: 2px solid #ccc;
+  }
+
+  .inp2:focus{
+    background-color: #111;
+    box-shadow: none;
+    border: 2px solid #fff;
+  }
+
+  .inp3{
+    width: 100%;
+    height: 140px;
+    display: block;
+    background-color:rgb(37, 37, 37);
+    border: 2px solid #ccc;
+  }
+
+  .inp3:focus{
+    background-color: #111;
+    box-shadow: none;
+    border: 2px solid #fff;
+  }
+
+  .btn2{
+    background-color: #111;
+    width: 100%;
+    color: #ccc;
+    font-family: Nunito;
+    height: auto;
+    line-height: 3;
+    border:2px solid #ccc;
+    margin-top: 25px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+
+  .hdg2{
+    font-size: 31px;
+    color: white;
+    margin-bottom: 25px;
+  }
+.para1{
+    font-size: 18px;
+    font-family: Nunito;
+    color: #ccc;
+}
+
+.para2{
+    font-size: 18px;
+    font-family: Nunito;
+    color: #ccc;
+}
+
+.lab{
+    color: #ccc;
+    font-family: Nunito;
+    font-size: 13px;
+}
+
+span{
+    color: #ccc;
+    font-family: Nunito;
+    text-decoration: underline;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+span:hover{
+    color: #fff;
+}
+
+.c-f8{
+    height: auto;
+    padding: 100px 0px;
+    background-color: #000;
+  }
+  
+  .c-f9{
+    height: auto;
+    padding-top: 100px;
+    background-color: #111;
+    padding-bottom: 170px;
+  }
+  
+  .parafoo{
+    color: #ccc;
+    font-family: Nunito;
+    font-size: 18px;
+  }
+  
+  .inp{
+    width: 35%;
+    height: 45px;
+    display: inline;
+  }
+  
+  .btn8{
+    height: auto;
+    padding: 10px 0px;
+    background-color: #000;
+    text-transform: uppercase;
+    color: white !important;
+    width: 150px;
+    color: #ccc;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  
+  .btn8:hover{
+    box-shadow: 0 0 5px white;
+  }
+  
+  i{
+    font-size: 18px;
+    color: gray;
+    padding: 13px;
+    transition: 0.5s;
+  }
+  
+  i:hover{
+    color: #fff;
+  }
+  
+  .c-f10{
+    height: auto;
+    border-top: 1px solid #ccc;
+    color: #ccc;
+    padding: 30px 0px;
+    font-family: Nunito;
+    background-color: #111;
+  }

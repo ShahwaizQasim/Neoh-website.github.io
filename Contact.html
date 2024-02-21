@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Neoh | Contact</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="Assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Assets/css/Layout.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='Assets/css/style4.css'>
+    <link rel="stylesheet" href="Assets/font/css/all.min.css">
+    <script src='Assets/js/jquery.min.js'></script>
+    <script src='Assets/js/Main.js'></script>
+    <script src='Assets/js/app.js'></script>
+
+    <script>
+        $(document).ready(function(){
+   $(window).scroll(function(){
+       if(
+           $(window).scrollTop () > 0){
+               $(".c-f").css({"background-color": "#111"});
+           }
+               else
+                   $(".c-f").css({"background-color":"transparent"});
+                   
+   });
+});
+    </script>
+</head>
+<body>
+                                                        <!-- navbar -->
+<div class="container-fluid c-f">
+    <div class="container con">
+        <div class="row">
+             <nav class="nav navbar navbar-expand-xxl navbar-light">
+                                                    
+                    <a href="" class="navbar-brand"><img src="Assets/img/logo.png" alt="" srcset="" class="pic"></a> 
+                    <button onclick="openNav()" class="navicon-btn">
+                        <i class="fa-solid fa-bars navicon "></i>
+                    </button>
+                        <div id="myNav" class="sidebar">
+                            <a href="javascript:void(0)" class="closebtn fa-solid fa-xmark" onclick="closeNav()"></a>
+                            <div class="sidebar-content">
+                                <a href="index.html">Home</a>
+                                <a href="About.html">About</a>
+                                <a href="Collection.html">Collection</a>
+                                <a href="Road.html">RoadMap</a>
+                                <a href="Blog.html">Blog</a>
+                                <a href="#">Contact</a>
+                            </div>
+                        </div>
+            </nav>
+        </div>
+    </div>
+</div>  
+                                                                <!-- main -->
+<div class="wrap">
+<div class="c-f2 text-center">
+    <div class="container">
+        <h1 class="hdg">CONTACT</h1>
+        <div class="para1"><a href="index.html" class="text-decoration-none" style="color: #ccc;">Home</a> / Contact</div>
+    </div>
+</div>
+                                                                <!-- form -->
+<div class="container-fluid c-f3">
+    <div class="container" style="height: auto;">
+        <div class="row">
+            <div class="col-5 m-auto" style="height: auto;">
+            <form>
+                <lable>Name</lable>
+                <input type="text" placeholder="Your Name" class="form-control inp2 mb-4">
+
+                <lable>Email</lable>
+                <input type="text" placeholder="youremail@mail.com" class="form-control inp2 mb-4">
+
+                <lable>Subject</lable>
+                <input type="text" class="form-control inp2 mb-4">
+
+                <lable>Message</lable>
+                <textarea class="inp3 form-control"></textarea>
+
+                <button class="btn2">SEND MESSAGE</button>
+            </form>
+            <p class="para1 pt-5">
+                Duis eu lorem ut mauris pulvinar auctor. Maecenas et dapibus orci, eleifend euismod justo. Quisque luctus turpis eu tristique feugiat.
+            </p>
+            <p class="para2 pt-2">Praesent ac magna feugiat, interdum lacus ac, interdum dui. Pellentesque id quam quis enim malesuada rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+            <label class="lab">ADDRESS</label>
+            <h1 class="hdg2 mt-1">69 Queen St, Melbourne Australia</h1>
+
+            <label class="lab">PHONE</label>
+            <h1 class="hdg2 mt-1 mb-5">(+706) 898-0751</h1>
+
+            <span>example@domain.com</span>
+            </div>
+        </div>
+    </div>
+</div>
+                                                                                        <!-- fOOTER -->
+<div class="container-fluid c-f9">
+    <div class="container text-center justify-content-center">
+        <img src="Assets/img/logo.png" alt="" class="mt-4">
+        <h1 class="hdg2 mt-4 mb-3">Join Now For Early Access</h1>
+        <p class="parafoo">Morbi non dignissim erat, a blandit felis nec lorem vel orci varius congue ut vitae<br> est. Nam quis tempus nisl. Fusce posuere nibh a mi molestie, sit amet ornare</p>
+        <form class="justify-content-center">
+        <div class="row">
+            <div class="col-sm-12">
+            <input type="email" placeholder="Email" class="form-control bg-dark inp m-auto mt-3 mb-3">
+    
+            <button class="btn8">Subscribe</button>
+    </div>
+        </div>
+            <div class="row mt-4">
+                <div class="col-12">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-behance"></i>
+        </div>
+        </div>
+        </form>
+    </div>
+</div>  
+<div class="container-fluid c-f10 text-center">                                                                  
+    Copyright 2023 - Designed & Developed by Hamza Nawaz
+</div>
+</div>
+</body>
+</html>
