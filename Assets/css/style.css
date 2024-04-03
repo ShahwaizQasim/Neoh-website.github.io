@@ -119,15 +119,55 @@
     font-family: neon;
     font-size: 120px;
     color: white;
+    text-align: center;
     letter-spacing: 35px;
   }
-
   .alpha{
     font-size: 24px;
     color: #ccc;
     box-sizing: none;
     margin-top: -25px;
     line-height: 1.3;
+    text-align: center;
+  }
+
+  @media screen and (max-width:900px){
+    .stxt1{
+       font-size: 100px;
+       letter-spacing: 30px;
+    }
+    .alpha{
+       font-size: 20px;
+    }
+  }
+  @media screen and (max-width:500px){
+    .stxt1{
+       font-size: 80px;
+       letter-spacing: 25px;
+    }
+    .alpha{
+       font-size: 20px;
+    }
+  }
+  @media screen and (max-width:430px){
+    .stxt1{
+       font-size: 70px;
+       letter-spacing: 20px;
+    }
+    .alpha{
+       font-size: 18px;
+       margin-top: 2px;
+    }
+  }
+  @media screen and (max-width:350px){
+    .stxt1{
+       font-size: 60px;
+       letter-spacing: 15px;
+    }
+    .alpha{
+       font-size: 16px;
+       margin-top: 2px;
+    }
   }
 
   span{
